@@ -4,7 +4,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
-    set_artist
+    @artist = set_artist
   end
 
   def new
