@@ -22,7 +22,7 @@ class ArtistsController < ApplicationController
 
   def update
     @artist.update(name: params[:name], bio: params[:bio])
-
+    redirect_to artist_path(@artist)
   end
 
   def destroy
