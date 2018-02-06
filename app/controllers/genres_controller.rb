@@ -17,6 +17,7 @@ class GenresController < ApplicationController
   end
 
   def update
+    set_genre
   end
 
   private
