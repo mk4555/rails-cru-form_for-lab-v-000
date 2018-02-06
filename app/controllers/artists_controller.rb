@@ -12,6 +12,8 @@ class ArtistsController < ApplicationController
   end
 
   def create
+    @artist = Artist.create(params)
+    redirect_to()
   end
 
   def edit
