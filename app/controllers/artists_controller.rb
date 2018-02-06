@@ -8,13 +8,14 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    
+
   end
 
   def create
   end
 
   def edit
+    set_artist
   end
 
   def update
