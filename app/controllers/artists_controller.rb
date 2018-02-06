@@ -16,7 +16,7 @@ class ArtistsController < ApplicationController
 
   def edit
     set_artist
-    @artist.update(params)
+    @artist.update(name: params[:name], bio: params[:bio])
   end
 
   def update
