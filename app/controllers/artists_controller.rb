@@ -16,6 +16,7 @@ class ArtistsController < ApplicationController
 
   def edit
     set_artist
+    @artist.update(params)
   end
 
   def update
