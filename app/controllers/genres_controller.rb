@@ -1,5 +1,6 @@
 class GenresController < ApplicationController
   def show
+    set_genre
   end
 
   def new
