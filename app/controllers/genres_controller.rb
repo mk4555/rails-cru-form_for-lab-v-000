@@ -18,6 +18,7 @@ class GenresController < ApplicationController
 
   def update
     set_genre
+    @genre.update(genre_params(:name))
   end
 
   private
