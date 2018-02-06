@@ -1,5 +1,6 @@
 class ArtistsController < ApplicationController
   def index
+
   end
 
   def show
@@ -7,6 +8,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    
   end
 
   def create
