@@ -10,4 +10,13 @@ class GenresController < ApplicationController
 
   def edit
   end
+
+  def update
+  end
+
+  private
+
+  def set_genre
+    @genre = Genre.find(parmas[:id])
+  end
 end
